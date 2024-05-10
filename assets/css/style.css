@@ -1,0 +1,46 @@
+@charset "UTF-80";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center center;
+    font-size: 1.6rem;
+    background-color: rgb(61, 59, 59);
+}
+
+.container {
+    background-color: white;
+    color: black;
+    min-height: 30rem;
+    min-width: 50rem;
+    border-radius: 2rem;
+}
+
+.container .mounth-year {
+    text-align:  center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: rgb(50, 109, 182);
+}
+
+.container .days-week {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.day-week-currently {
+    color: rgb(50, 109, 182);
+    font-size: 2rem;
+    font-weight: bold;
+}
