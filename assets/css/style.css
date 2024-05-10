@@ -30,7 +30,7 @@ body {
     text-align:  center;
     padding: 1.5rem;
     font-size: 2rem;
-    color: rgb(50, 109, 182);
+    color: rgb(24, 120, 237);
 }
 
 .container .days-week {
@@ -40,7 +40,9 @@ body {
 }
 
 .day-week-currently {
-    color: rgb(50, 109, 182);
     font-size: 2rem;
+    background-color: rgb(113, 162, 222);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
     font-weight: bold;
 }
