@@ -2,6 +2,7 @@ const date = new Date()
 const mounth = date.getMonth()
 const year = date.getFullYear()
 const day_week = date.getDay()
+const day = date.getDate()
 
 function mounth__year () {
     const mounth__array = [
@@ -31,5 +32,24 @@ function day__week () {
     day_week === 6 ? saturday.classList.add('day-week-currently') : saturday.classList.remove('day-week-currently')
 }
 
+function day__currently () {
+    const days = document.querySelector('#days')
+
+    if (mounth === 0 || 2 || 4 || 6 || 7 || 8 || 11) {
+        for(let i= 1; i < 32; i++) {
+            day === i ? days.innerHTML += `<p class="day-currently">${i}</p)` :  days.innerHTML += `<p>${i}</p)`
+        } 
+    } else if(mounth === 1) {
+        for(let i= 1; i < 28; i++) {
+            day === i ? days.innerHTML += `<p class="day-currently">${i}</p)` :  days.innerHTML += `<p>${i}</p)`
+        }
+    } else {
+        for(let i= 1; i < 30; i++) {
+            day === i ? days.innerHTML += `<p class="day-currently">${i}</p)` :  days.innerHTML += `<p>${i}</p)`
+    }
+    }
+}
+
+day__currently()
 mounth__year()
 day__week()
