@@ -33,4 +33,3 @@ function day__week () {
 
 mounth__year()
 day__week()
-console.log(day_week)
