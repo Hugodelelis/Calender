@@ -22,13 +22,13 @@ function day__week () {
     let friday = document.querySelector('#friday')
     let saturday = document.querySelector('#saturday')
 
-   day_week === 0 ? sunday.classList.add('day-week-currently') : sunday.classList.remove('day-week-currently')
-   day_week === 1 ? monday.classList.add('day-week-currently') : monday.classList.remove('day-week-currently')
-   day_week === 2 ? tuesday.classList.add('day-week-currently') : tuesday.classList.remove('day-week-currently')
-   day_week === 3 ? wednesday.classList.add('day-week-currently') : wednesday.classList.remove('day-week-currently')
-   day_week === 4 ? thursday.classList.add('day-week-currently') : thursday.classList.remove('day-week-currently')
-   day_week === 5 ? friday.classList.add('day-week-currently') : friday.classList.remove('day-week-currently')
-   day_week === 6 ? saturday.classList.add('day-week-currently') : saturday.classList.remove('day-week-currently')
+    day_week === 0 ? sunday.classList.add('day-week-currently') : sunday.classList.remove('day-week-currently')
+    day_week === 1 ? monday.classList.add('day-week-currently') : monday.classList.remove('day-week-currently')
+    day_week === 2 ? tuesday.classList.add('day-week-currently') : tuesday.classList.remove('day-week-currently')
+    day_week === 3 ? wednesday.classList.add('day-week-currently') : wednesday.classList.remove('day-week-currently')
+    day_week === 4 ? thursday.classList.add('day-week-currently') : thursday.classList.remove('day-week-currently')
+    day_week === 5 ? friday.classList.add('day-week-currently') : friday.classList.remove('day-week-currently')
+    day_week === 6 ? saturday.classList.add('day-week-currently') : saturday.classList.remove('day-week-currently')
 }
 
 mounth__year()

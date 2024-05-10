@@ -40,12 +40,12 @@ body {
     align-items: center;
     margin: 0 5rem;
     text-align: center;
+    font-weight: bold;
 }
 
 .day-week-currently {
     color: rgb(24, 120, 237);
     font-size: 2rem;
-    font-weight: bold;
 }
 
 #days {
